@@ -17,6 +17,14 @@ export const home: RequiredDataFromCollectionSlug<'pages'> = {
       {
         link: {
           type: 'custom',
+          appearance: 'default',
+          label: 'All products',
+          url: '/products',
+        },
+      },
+      {
+        link: {
+          type: 'custom',
           appearance: 'outline',
           label: 'Contact',
           url: '/contact',
